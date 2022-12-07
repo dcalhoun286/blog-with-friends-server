@@ -1,4 +1,10 @@
 class User < ApplicationRecord
-  attr_accessor :firstname, :lastname, :email, :username, :password
-  validates :firstname, :lastname, :email, :username, :password, presence: true
+  # attr_accessor :firstname, :lastname, :email, :username, :password
+  validates :firstname, presence: true
+  validates :lastname, presence: true
+  validates :username, presence: true
+  validates :username, uniqueness: true
+  validates :email, presence: true
+  validates :email, uniqueness: true
+  validates :password, presence: true
 end
