@@ -26,3 +26,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Server Startup
+
+To run this app in your local development environment, do the following steps:
+
+- `rails db:reset`
+- `rails s --port 8000`
+    - The port needs to be specified to ensure the API won't try to run on the same port as the client app.
+
+## Documentation / Resources
+
+- CORS issue resolution:
+    - [CodeTuts | YouTube](https://youtube.com/watch?v=psgxZ1M0gB0)
+    - [rack-cors package docs | GitHub](https://github.com/cyu/rack-cors)
