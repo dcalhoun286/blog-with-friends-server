@@ -19,14 +19,14 @@ users = User.create(
       firstname: "Sally",
       lastname: "Jefferson",
       email: "sallyjefferson@example.com",
-      username: "sallyj@example.com",
+      username: "sallyj7",
       password: "P@s$w0rd2"
     },
     {
       firstname: "Bob",
       lastname: "McBurger",
       email: "bobbymac@example.com",
-      username: "bobbym@example.com",
+      username: "bobbymac222",
       password: "P@s$w0rd3"
     }
   ]
