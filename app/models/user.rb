@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :posts
   # attr_accessor :firstname, :lastname, :email, :username, :password
   validates :firstname, presence: true
   validates :lastname, presence: true
