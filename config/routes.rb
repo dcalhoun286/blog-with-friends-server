@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "pages#home"
   get "users", to: "users#index"
+  get "users/:username/posts", to: "posts#show_posts"
 end
+ 
+# fetch('/api/users/:username/posts');
